@@ -56,7 +56,7 @@
                     <i class="fa-solid fa-inbox"></i> 
                     <span>CURRENT PENDING (needs your quick review)</span>
                 </div>
-                <span class="text-xs bg-white/5 text-white/60 px-2 py-px rounded-full">3 domain(s)</span>
+                <span class="text-xs bg-white/5 text-white/60 px-2 py-px rounded-full">4 domain(s)</span>
             </div>
 
             
@@ -231,6 +231,51 @@ Nir... (full in file)`, this)"
         <div class="mt-2 text-[10px] text-center text-zinc-500">This copies a ready-to-paste message you can reply with in the proactive iMessage thread. The agent will learn from it.</div>
     </div>
     
+    <div class="draft-card bg-zinc-900 border border-zinc-800 rounded-3xl p-4 mb-4">
+        <div class="flex justify-between items-start mb-3">
+            <div>
+                <div class="font-semibold text-lg tracking-tight">10-7.org</div>
+                <div class="text-[10px] text-zinc-500 font-mono">2026-06-19T02:05</div>
+            </div>
+            <a href="/Users/nirlevy/.openclaw/workspace/107/outreach_outputs/wakeup_confidence_10-7-org_20260619T020537Z.md" class="text-xs px-3 py-1.5 bg-white/5 hover:bg-white/10 active:bg-white/20 rounded-2xl flex items-center gap-x-1 text-emerald-400 transition-colors" target="_blank">
+                <i class="fa-solid fa-file-lines"></i>
+                <span class="text-[10px] font-medium">OPEN FULL MD</span>
+            </a>
+        </div>
+
+        <div class="bg-zinc-950 border border-zinc-800 rounded-2xl p-3 mb-3">
+            <div class="section-header text-zinc-400 mb-1.5">READY LINKEDIN DRAFT (tap to copy)</div>
+            <pre class="draft-text bg-black/40 p-3 rounded-xl text-emerald-100 text-[13.5px] leading-snug overflow-auto max-h-[210px] font-light">Draft text embedded in the live viewer (see link for full formatted version with copy buttons).</pre>
+            <button onclick="copyDraft(`Draft text embedded in the live viewer (see link for full formatted version with copy buttons).`, this)" 
+                    class="mt-2 mobile-btn w-full bg-emerald-500 hover:bg-emerald-600 active:bg-emerald-700 transition-colors text-white font-semibold rounded-2xl text-sm flex items-center justify-center gap-x-2 py-2.5">
+                <i class="fa-solid fa-copy"></i> 
+                <span>COPY DRAFT FOR LINKEDIN</span>
+            </button>
+        </div>
+
+        <div class="grid grid-cols-1 gap-3">
+            <!-- Domain specific feedback -->
+            <div>
+                <label class="section-header block mb-1 text-white/80">FEEDBACK SPECIFIC TO 10-7.ORG</label>
+                <textarea id="fb-specific-10-7.org" class="feedback-textarea w-full bg-zinc-950 border border-zinc-800 focus:border-zinc-600 rounded-2xl px-3 py-2 text-sm placeholder:text-zinc-600" placeholder="e.g. The tier-jump example landed really well. Make the outdoor calculator more prominent."></textarea>
+            </div>
+
+            <!-- General (shared across domains) -->
+            <div>
+                <label class="section-header block mb-1 text-white/80">GENERAL LEARNINGS (affects all future promotions)</label>
+                <textarea id="fb-general" class="feedback-textarea w-full bg-zinc-950 border border-zinc-800 focus:border-zinc-600 rounded-2xl px-3 py-2 text-sm placeholder:text-zinc-600" placeholder="e.g. Always mention the person's role/company early. Keep CTAs under 2 sentences."></textarea>
+            </div>
+        </div>
+
+        <button onclick="buildFeedbackAndCopy('10-7.org', '/Users/nirlevy/.openclaw/workspace/107/outreach_outputs/wakeup_confidence_10-7-org_20260619T020537Z.md')" 
+                class="mt-3 mobile-btn w-full bg-white text-black font-semibold rounded-2xl flex items-center justify-center gap-x-2 py-3 text-sm active:scale-[0.985] transition-transform">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>COPY FORMATTED FEEDBACK FOR iMESSAGE</span>
+        </button>
+
+        <div class="mt-2 text-[10px] text-center text-zinc-500">This copies a ready-to-paste message you can reply with in the proactive iMessage thread. The agent will learn from it.</div>
+    </div>
+    
         </div>
 
         <!-- Feedback Learnings -->
@@ -240,7 +285,7 @@ Nir... (full in file)`, this)"
                 <span>WHAT WE'VE LEARNED (applied to generations)</span>
             </div>
             <div class="space-y-3 text-sm">
-                <div class="text-xs text-zinc-500">No learnings recorded yet. Your first feedback will start teaching the system.</div>
+                <div><span class="font-semibold text-xs text-amber-300">watershortcut.com:</span> <span class="text-xs">Users love the plain-English checklist but want explicit tier-jump examples early, Property managers respond well when we reference '800+ units' or irrigation spikes</span></div><div><span class="font-semibold text-xs text-amber-300">doting.co:</span> <span class="text-xs">Coaches like the low-friction '60-second walkthrough' framing, Mention habit retention and team/product ops when talking to leaders</span></div><div><span class="font-semibold text-xs text-amber-300">general:</span> <span class="text-xs">Reference the person's specific role/org early for personalization, Keep the CTA as the exact confidence script line to stay consistent</span></div>
             </div>
             <div class="mt-4 text-[10px] text-zinc-500">Feedback you give here (via copy-to-iMessage) gets incorporated into future drafts — specific to the domain and general patterns across the portfolio.</div>
         </div>
