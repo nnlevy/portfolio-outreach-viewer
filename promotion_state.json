@@ -37,7 +37,8 @@
       "bundle_md": "/Users/nirlevy/.openclaw/workspace/watershortcut/outreach_outputs/wakeup_confidence_watershortcut-com_20260619T020556Z.md",
       "bundle_json": "/Users/nirlevy/.openclaw/workspace/watershortcut/outreach_outputs/wakeup_confidence_watershortcut-com_20260619T020556Z.json",
       "generated": "2026-06-19T02:05:56.595062+00:00",
-      "status": "pending_approval"
+      "status": "approved",
+      "approved_at": "2026-06-19T04:43:54.089604+00:00"
     },
     {
       "domain": "affordablehome.us",
@@ -135,6 +136,12 @@
       "action": "approved",
       "ts": "2026-06-19T03:44:47.893093+00:00",
       "bundle": "/Users/nirlevy/.openclaw/workspace/cascadeave/outreach_outputs/wakeup_confidence_cascadeave-com_20260619T032806Z.md"
+    },
+    {
+      "domain": "watershortcut.com",
+      "action": "approved",
+      "ts": "2026-06-19T04:43:54.089702+00:00",
+      "bundle": "/Users/nirlevy/.openclaw/workspace/watershortcut/outreach_outputs/wakeup_confidence_watershortcut-com_20260619T020556Z.md"
     }
   ]
 }
