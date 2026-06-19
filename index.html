@@ -49,6 +49,17 @@
             <div class="mt-3 text-[11px] text-zinc-500">The system proactively generates for the next domain and texts you. This page is the single source of truth for review + feedback from your phone.</div>
         </div>
 
+        <!-- How to approve ( < 2 min total, specific instructions) -->
+        <div class="bg-emerald-950 border border-emerald-700 rounded-3xl p-4 mb-6">
+            <div class="font-semibold text-emerald-300 mb-2">How to approve (total < 2 min)</div>
+            <ol class="text-sm text-emerald-200 list-decimal pl-5 space-y-1">
+                <li>Click the link in the iMessage (or here on this page for the item).</li>
+                <li>Review the 1-2 paragraph pitch or draft (30-60s).</li>
+                <li>In iMessage, reply with exactly the short line: <span class="font-mono">Approve? THE-ID YES</span> or <span class="font-mono">Approve? THE-ID FEEDBACK: your note</span> (10s).</li>
+            </ol>
+            <div class="text-[10px] text-emerald-300 mt-2">The ID is in the message. The link opens the exact card. Your short reply lets the agent pull the full context and act only on that item.</div>
+        </div>
+
         <!-- Pending Approvals -->
         <div class="mb-4">
             <div class="flex items-center justify-between mb-3 px-1">
@@ -520,7 +531,62 @@ Would you be open to a ... (full in file)`, this)"
 
             // Keyboard friendly + mobile
             console.log('%c[Outreach Viewer] Mobile Safari optimized. Feedback forms ready for quick input + copy-to-iMessage.', 'color:#3f3f46');
+
+            // Deep link support: ?id=THE-ID or ?approve=THE-ID opens and highlights the exact card for the approval item
+            function handleDeepLink() {
+                const params = new URLSearchParams(window.location.search);
+                const id = params.get('id') || params.get('approve');
+                if (id) {
+                    // Try exact data-id match
+                    let card = document.querySelector(`[data-id="${id}"]`);
+                    if (!card) {
+                        // Fallback: find card containing the ID in text (for revenue pipeline etc.)
+                        const allCards = document.querySelectorAll('.draft-card, [class*="bg-zinc-900"]');
+                        for (let c of allCards) {
+                            if (c.textContent.includes(id)) {
+                                card = c;
+                                break;
+                            }
+                        }
+                    }
+                    if (card) {
+                        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        const origShadow = card.style.boxShadow;
+                        card.style.transition = 'box-shadow 0.3s ease';
+                        card.style.boxShadow = '0 0 0 6px #f59e0b, 0 10px 15px -3px rgb(0 0 0 / 0.1)';
+                        setTimeout(() => {
+                            card.style.boxShadow = origShadow || '';
+                        }, 3500);
+                        // Focus first textarea for instant feedback if present
+                        const ta = card.querySelector('textarea');
+                        if (ta) setTimeout(() => ta.focus(), 800);
+                    }
+                }
+            }
+            window.addEventListener('load', handleDeepLink);
+            // Also support if hash or on pushstate, but load is sufficient for now
         </script>
     </div>
+
+<!-- Revenue Pipeline Section (added 2026-06-18T23:56:45.588803) --> 
+<div data-id="watershortcut-revenue-20260618-2356">
+<div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-5 mb-6" data-id="watershortcut-revenue-20260618-2356">
+    <div class="section-header mb-3 flex items-center gap-2 text-amber-400">
+        <i class="fa-solid fa-dollar-sign"></i> 
+        <span>REVENUE PIPELINE (new asks - use same ID reply format)</span>
+    </div>
+    <div class="text-sm">
+        <strong>watershortcut.com revenue ask ID: watershortcut-revenue-20260618-2356</strong><br>
+        Affiliate + Ad Partner Pitch for WaterShortcut Tools & Content<br>
+        Pitch summary: Hi [Name/Title at Utility/Operator/Housing],
+
+[Short context from your role/org, e.g. "Noted your work managing water programs for multifamily..."]
+
+WaterShortcut turns confusing bills into clear, act...<br>
+        Tracking: Add UTM: ?utm_source=linkedin&utm_medium=outreach&utm_campaign=ws-revenue-ask-[id] ; track affiliate clicks via referral-linker; ad views via GA/AdSense.<br>
+        Next: If approved, customize for 3 targets from contacts, send, log in outreach_outputs with ID, update learnings.<br>
+        Reply format: Quote or use "Approve? watershortcut-revenue-20260618-2356 YES" (or FEEDBACK). Full details in revenue_asks.json.
+    </div>
+</div>
 </body>
 </html>

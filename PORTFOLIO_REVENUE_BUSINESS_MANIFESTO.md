@@ -148,3 +148,19 @@ Run `portfolio-qmd get qmd://dashboard/PORTFOLIO_REVENUE_BUSINESS_MANIFESTO.md` 
 This is the foundation for the automated revenue business. Quality will improve with every cycle because of the built-in learning.
 
 (End of manifesto - agents: update this with new architecture/learnings/revenue results. Prioritize P0/P1 above.)
+
+## Progress Update (executed 2026-06-19 after ID/quote-reply context fix)
+
+- Acknowledged and reinforced the approval system fixes (ID + handle script + strong parse rules in crons/memory/AGENTS + "ignore long echoed blocks" + "short yes = narrow confirmation only; no new unrelated tasks like scanning or 'domain down'").
+- Shifted from pure validation/feedback asks to direct revenue generation asks (per P1 roadmap). Started with watershortcut.com (strongest existing hooks: AdSense configured + ad slots/consent, referral-linker.js for affiliates, tools + billing service for conversion/monetization, daily content for SEO traffic, GA tracking, D1 users/KV growth).
+- Created first concrete revenue ask: "Affiliate + Ad Partner Pitch for WaterShortcut Tools & Content" (co-branded affiliate for WaterSense/low-flow, sponsored analyzer placements for utilities/operators, ad optimization intros). Includes tracking (UTMs via referral-linker + GA/AdSense).
+- Persisted as pending with unique ID (watershortcut-revenue-20260618-2356), added to approval_map.json for consistent ID-based replies.
+- Updated live viewer (https://nnlevy.github.io/portfolio-outreach-viewer/) with new "Revenue Pipeline" section showing the ask + reply format.
+- Sent the full "Approve? [ID: watershortcut-revenue-20260618-2356] ..." text via the improved OpenClaw system (bottleneck_instructor with strengthened "look first for short ID", "ignore long echoed previous AI text", explicit "this is for watershortcut.com only" language).
+- This is the start of evolving the entire connected system (outreach + content + tools + billing) toward automated revenue funnels with min input (use the ID in replies) and rapid quality (feedback goes to learnings for better pitches next time).
+
+Next immediate (you can trigger by replying to the new ID or saying so): Customize the pitch for 1-2 real targets from watershortcut/contacts/*.json, log the sent versions in outreach_outputs with the ID, update learnings, and prepare follow-on (e.g., run the ask via the per-domain outreach scripts if approved).
+
+The approval system is now robust enough that short replies won't trigger unrelated "scanning" or "domain down" tasks.
+
+All tied to the core goal: fully automated revenue platform.
