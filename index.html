@@ -4,7 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Outreach • Live Drafts & Feedback</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com">
+            // Dynamic link support: ?id=ID or ?approve=ID in the URL scrolls and highlights the exact approval item
+            function handleDeepLink() {
+                const params = new URLSearchParams(window.location.search);
+                const id = params.get('id') || params.get('approve');
+                if (id) {
+                    let card = document.querySelector(`[data-id="${id}"]`);
+                    if (!card) {
+                        // fallback: search text content for the ID
+                        document.querySelectorAll('.draft-card, div[class*="bg-zinc-900"]').forEach(c => {
+                            if (c.textContent.includes(id) && !card) card = c;
+                        });
+                    }
+                    if (card) {
+                        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        const orig = card.style.boxShadow;
+                        card.style.transition = 'box-shadow 0.3s';
+                        card.style.boxShadow = '0 0 0 6px #f59e0b';
+                        setTimeout(() => { card.style.boxShadow = orig || 'none'; }, 4000);
+                        const ta = card.querySelector('textarea');
+                        if (ta) setTimeout(() => ta.focus(), 600);
+                    }
+                }
+            }
+            window.addEventListener('load', handleDeepLink);
+</script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
@@ -520,7 +545,32 @@ Would you be open to a ... (full in file)`, this)"
 
             // Keyboard friendly + mobile
             console.log('%c[Outreach Viewer] Mobile Safari optimized. Feedback forms ready for quick input + copy-to-iMessage.', 'color:#3f3f46');
-        </script>
+        
+            // Dynamic link support: ?id=ID or ?approve=ID in the URL scrolls and highlights the exact approval item
+            function handleDeepLink() {
+                const params = new URLSearchParams(window.location.search);
+                const id = params.get('id') || params.get('approve');
+                if (id) {
+                    let card = document.querySelector(`[data-id="${id}"]`);
+                    if (!card) {
+                        // fallback: search text content for the ID
+                        document.querySelectorAll('.draft-card, div[class*="bg-zinc-900"]').forEach(c => {
+                            if (c.textContent.includes(id) && !card) card = c;
+                        });
+                    }
+                    if (card) {
+                        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        const orig = card.style.boxShadow;
+                        card.style.transition = 'box-shadow 0.3s';
+                        card.style.boxShadow = '0 0 0 6px #f59e0b';
+                        setTimeout(() => { card.style.boxShadow = orig || 'none'; }, 4000);
+                        const ta = card.querySelector('textarea');
+                        if (ta) setTimeout(() => ta.focus(), 600);
+                    }
+                }
+            }
+            window.addEventListener('load', handleDeepLink);
+</script>
     </div>
 </body>
 </html>
