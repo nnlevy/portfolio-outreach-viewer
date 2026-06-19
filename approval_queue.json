@@ -11,7 +11,7 @@
       "revenue_impact": 75,
       "user_delight_impact": 50,
       "urgency": 75,
-      "status": "queued",
+      "status": "presented",
       "created_at": "2026-06-19T04:43:54.098552+00:00",
       "parallel_prep": [
         "adapt_pitch",
@@ -25,7 +25,8 @@
         "adapt_pitch",
         "find_contacts",
         "prepare_tracking"
-      ]
+      ],
+      "presented_at": "2026-06-19T07:47:38.615237+00:00"
     },
     {
       "id": "infra-watershortcut-com-20260619",
@@ -43,7 +44,7 @@
         "prepare_assets"
       ],
       "notes": "Infra enables revenue across portfolio. One approval here unlocks parallel work on multiple domains.",
-      "status": "presented",
+      "status": "queued",
       "created_at": "2026-06-19T04:41:29.911176+00:00",
       "priority": 81,
       "prep_status": "done",
@@ -403,7 +404,7 @@
       "notes": "Auto-enqueued by domain_readiness_auditor because revenue ask for watershortcut.com was low-delight (score 52)."
     }
   ],
-  "currently_presented_id": null,
-  "last_updated": "2026-06-19T05:06:09.079993+00:00",
+  "currently_presented_id": "rev-parallel-affordablehome-us-202606190043",
+  "last_updated": "2026-06-19T07:47:38.616009+00:00",
   "notes": "One-at-a-time presentation for approvals. Parallel prep allowed for queued items. Prioritized by revenue + delight + urgency. Approvals should maximize scope (e.g. bundle learnings across domains, trigger parallel revenue preps)."
 }
