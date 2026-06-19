@@ -4,32 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Outreach • Live Drafts & Feedback</title>
-    <script src="https://cdn.tailwindcss.com">
-            // Dynamic link support: ?id=ID or ?approve=ID in the URL scrolls and highlights the exact approval item
-            function handleDeepLink() {
-                const params = new URLSearchParams(window.location.search);
-                const id = params.get('id') || params.get('approve');
-                if (id) {
-                    let card = document.querySelector(`[data-id="${id}"]`);
-                    if (!card) {
-                        // fallback: search text content for the ID
-                        document.querySelectorAll('.draft-card, div[class*="bg-zinc-900"]').forEach(c => {
-                            if (c.textContent.includes(id) && !card) card = c;
-                        });
-                    }
-                    if (card) {
-                        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                        const orig = card.style.boxShadow;
-                        card.style.transition = 'box-shadow 0.3s';
-                        card.style.boxShadow = '0 0 0 6px #f59e0b';
-                        setTimeout(() => { card.style.boxShadow = orig || 'none'; }, 4000);
-                        const ta = card.querySelector('textarea');
-                        if (ta) setTimeout(() => ta.focus(), 600);
-                    }
-                }
-            }
-            window.addEventListener('load', handleDeepLink);
-</script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
@@ -59,7 +34,7 @@
             </div>
             <div class="text-right text-xs">
                 <div class="text-zinc-400">Last updated</div>
-                <div class="font-mono text-emerald-300">2026-06-19T00:02</div>
+                <div class="font-mono text-emerald-300">2026-06-19T02:05</div>
             </div>
         </div>
 
@@ -73,6 +48,81 @@
             </div>
             <div class="mt-3 text-[11px] text-zinc-500">The system proactively generates for the next domain and texts you. This page is the single source of truth for review + feedback from your phone.</div>
         </div>
+
+        <div class="mb-6">
+        <div class="flex items-center justify-between mb-2 px-1">
+            <div class="section-header text-white flex items-center gap-2"><i class="fa-solid fa-tasks"></i> <span>APPROVAL QUEUE (1-at-a-time, revenue-prioritized, parallel prep + scope-max on approve)</span></div>
+            <span class="text-[10px] bg-emerald-500/10 text-emerald-400 px-1.5 rounded">presented: none</span>
+        </div>
+        <div class="draft-card bg-emerald-950 border-emerald-900 rounded-3xl p-3 mb-2" data-id="watershortcut-20260619-0013">
+            <div class="flex items-center justify-between">
+                <div class="text-sm">
+                    <span class="font-semibold tracking-tight">1. [86] watershortcut-20260619-0013 watershortcut.com</span>
+                    <span class="ml-2 text-[9px] px-1 py-0.5 bg-emerald-500 text-black rounded font-medium">revenue_ask • rev 90</span>
+                    <span class="ml-1 text-[9px] px-1 py-0.5 bg-zinc-800 rounded">queued</span>
+                </div>
+                <a href="https://nnlevy.github.io/portfolio-outreach-viewer/?id=watershortcut-20260619-0013" class="text-[10px] px-2 py-0.5 bg-white/10 hover:bg-white/20 rounded-2xl" target="_blank">OPEN</a>
+            </div>
+            <div class="text-[10px] text-zinc-300 mt-0.5">Affiliate + Ad Partner Pitch for WaterShortcut Tools & Content</div>
+            <div class="text-[9px] text-emerald-400/80">parallel: customize_for_contacts, prepare_tracking</div>
+        </div><div class="draft-card bg-zinc-900 border-zinc-800 rounded-3xl p-3 mb-2" data-id="infra-watershortcut-com-20260619">
+            <div class="flex items-center justify-between">
+                <div class="text-sm">
+                    <span class="font-semibold tracking-tight">2. [81] infra-watershortcut-com-20260619 watershortcut.com</span>
+                    <span class="ml-2 text-[9px] px-1 py-0.5 bg-amber-500 text-black rounded font-medium">ad_settings • rev 85</span>
+                    <span class="ml-1 text-[9px] px-1 py-0.5 bg-zinc-800 rounded">queued</span>
+                </div>
+                <a href="https://nnlevy.github.io/portfolio-outreach-viewer/?id=infra-watershortcut-com-20260619" class="text-[10px] px-2 py-0.5 bg-white/10 hover:bg-white/20 rounded-2xl" target="_blank">OPEN</a>
+            </div>
+            <div class="text-[10px] text-zinc-300 mt-0.5">Wire /api/ad-settings for watershortcut (AdSense + tools monetization)</div>
+            <div class="text-[9px] text-emerald-400/80">parallel: research_ad_networks, prepare_assets</div>
+        </div><div class="draft-card bg-zinc-900 border-zinc-800 rounded-3xl p-3 mb-2" data-id="infra-10-7.org-20260619">
+            <div class="flex items-center justify-between">
+                <div class="text-sm">
+                    <span class="font-semibold tracking-tight">3. [63] infra-10-7.org-20260619 10-7.org</span>
+                    <span class="ml-2 text-[9px] px-1 py-0.5 bg-amber-500 text-black rounded font-medium">ad_settings • rev 60</span>
+                    <span class="ml-1 text-[9px] px-1 py-0.5 bg-zinc-800 rounded">queued</span>
+                </div>
+                <a href="https://nnlevy.github.io/portfolio-outreach-viewer/?id=infra-10-7.org-20260619" class="text-[10px] px-2 py-0.5 bg-white/10 hover:bg-white/20 rounded-2xl" target="_blank">OPEN</a>
+            </div>
+            <div class="text-[10px] text-zinc-300 mt-0.5">Wire /api/ad-settings for 10-7 (revenue lane)</div>
+            <div class="text-[9px] text-emerald-400/80">parallel: research_ad_networks, prepare_assets</div>
+        </div><div class="draft-card bg-zinc-900 border-zinc-800 rounded-3xl p-3 mb-2" data-id="promo-watershortcut.com-20260619">
+            <div class="flex items-center justify-between">
+                <div class="text-sm">
+                    <span class="font-semibold tracking-tight">4. [63] promo-watershortcut.com-20260619 watershortcut.com</span>
+                    <span class="ml-2 text-[9px] px-1 py-0.5 bg-amber-500 text-black rounded font-medium">feedback_ask • rev 40</span>
+                    <span class="ml-1 text-[9px] px-1 py-0.5 bg-zinc-800 rounded">queued</span>
+                </div>
+                <a href="https://nnlevy.github.io/portfolio-outreach-viewer/?id=promo-watershortcut.com-20260619" class="text-[10px] px-2 py-0.5 bg-white/10 hover:bg-white/20 rounded-2xl" target="_blank">OPEN</a>
+            </div>
+            <div class="text-[10px] text-zinc-300 mt-0.5">Feedback/approval for watershortcut.com outreach or update</div>
+            <div class="text-[9px] text-emerald-400/80">parallel: research_contacts, generate_variants</div>
+        </div><div class="draft-card bg-zinc-900 border-zinc-800 rounded-3xl p-3 mb-2" data-id="promo-watershortcut-com-20260619">
+            <div class="flex items-center justify-between">
+                <div class="text-sm">
+                    <span class="font-semibold tracking-tight">5. [63] promo-watershortcut-com-20260619 watershortcut.com</span>
+                    <span class="ml-2 text-[9px] px-1 py-0.5 bg-amber-500 text-black rounded font-medium">feedback_ask • rev 40</span>
+                    <span class="ml-1 text-[9px] px-1 py-0.5 bg-zinc-800 rounded">queued</span>
+                </div>
+                <a href="https://nnlevy.github.io/portfolio-outreach-viewer/?id=promo-watershortcut-com-20260619" class="text-[10px] px-2 py-0.5 bg-white/10 hover:bg-white/20 rounded-2xl" target="_blank">OPEN</a>
+            </div>
+            <div class="text-[10px] text-zinc-300 mt-0.5">Feedback/approval for watershortcut.com outreach or update</div>
+            <div class="text-[9px] text-emerald-400/80">parallel: research_contacts, generate_variants</div>
+        </div><div class="draft-card bg-zinc-900 border-zinc-800 rounded-3xl p-3 mb-2" data-id="infra-10-7-org-20260619">
+            <div class="flex items-center justify-between">
+                <div class="text-sm">
+                    <span class="font-semibold tracking-tight">6. [63] infra-10-7-org-20260619 10-7.org</span>
+                    <span class="ml-2 text-[9px] px-1 py-0.5 bg-amber-500 text-black rounded font-medium">ad_settings • rev 60</span>
+                    <span class="ml-1 text-[9px] px-1 py-0.5 bg-zinc-800 rounded">queued</span>
+                </div>
+                <a href="https://nnlevy.github.io/portfolio-outreach-viewer/?id=infra-10-7-org-20260619" class="text-[10px] px-2 py-0.5 bg-white/10 hover:bg-white/20 rounded-2xl" target="_blank">OPEN</a>
+            </div>
+            <div class="text-[10px] text-zinc-300 mt-0.5">Wire /api/ad-settings for 10-7 (revenue lane)</div>
+            <div class="text-[9px] text-emerald-400/80">parallel: research_ad_networks, prepare_assets</div>
+        </div>
+        <div class="text-[10px] text-zinc-500">Use queue_manager --present-next to text top item (exact ?id= link + short reply format). Approve maximizes revenue across domains.</div>
+    </div>
 
         <!-- Pending Approvals -->
         <div class="mb-4">
@@ -545,32 +595,7 @@ Would you be open to a ... (full in file)`, this)"
 
             // Keyboard friendly + mobile
             console.log('%c[Outreach Viewer] Mobile Safari optimized. Feedback forms ready for quick input + copy-to-iMessage.', 'color:#3f3f46');
-        
-            // Dynamic link support: ?id=ID or ?approve=ID in the URL scrolls and highlights the exact approval item
-            function handleDeepLink() {
-                const params = new URLSearchParams(window.location.search);
-                const id = params.get('id') || params.get('approve');
-                if (id) {
-                    let card = document.querySelector(`[data-id="${id}"]`);
-                    if (!card) {
-                        // fallback: search text content for the ID
-                        document.querySelectorAll('.draft-card, div[class*="bg-zinc-900"]').forEach(c => {
-                            if (c.textContent.includes(id) && !card) card = c;
-                        });
-                    }
-                    if (card) {
-                        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                        const orig = card.style.boxShadow;
-                        card.style.transition = 'box-shadow 0.3s';
-                        card.style.boxShadow = '0 0 0 6px #f59e0b';
-                        setTimeout(() => { card.style.boxShadow = orig || 'none'; }, 4000);
-                        const ta = card.querySelector('textarea');
-                        if (ta) setTimeout(() => ta.focus(), 600);
-                    }
-                }
-            }
-            window.addEventListener('load', handleDeepLink);
-</script>
+        </script>
     </div>
 </body>
 </html>
