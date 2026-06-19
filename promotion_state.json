@@ -1,0 +1,43 @@
+{
+  "last_run": "2026-06-19T02:04:40.238383+00:00",
+  "priority": [
+    "watershortcut.com",
+    "doting.co",
+    "growth.business",
+    "10-7.org",
+    "affordablehome.us",
+    "buypatioheater.com",
+    "cascadeave.com",
+    "chatulah.com"
+  ],
+  "pending_approvals": [
+    {
+      "domain": "watershortcut.com",
+      "bundle_md": "/Users/nirlevy/.openclaw/workspace/watershortcut/outreach_outputs/wakeup_confidence_watershortcut-com_20260619T020025Z.md",
+      "bundle_json": "/Users/nirlevy/.openclaw/workspace/watershortcut/outreach_outputs/wakeup_confidence_watershortcut-com_20260619T020025Z.json",
+      "generated": "2026-06-19T02:00:25.047392+00:00",
+      "status": "pending_approval"
+    },
+    {
+      "domain": "doting.co",
+      "bundle_md": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020440Z.md",
+      "bundle_json": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020440Z.json",
+      "generated": "2026-06-19T02:04:40.238256+00:00",
+      "status": "pending_approval"
+    }
+  ],
+  "history": [
+    {
+      "domain": "watershortcut.com",
+      "action": "generated",
+      "ts": "2026-06-19T02:00:25.047535+00:00",
+      "bundle": "/Users/nirlevy/.openclaw/workspace/watershortcut/outreach_outputs/wakeup_confidence_watershortcut-com_20260619T020025Z.md"
+    },
+    {
+      "domain": "doting.co",
+      "action": "generated",
+      "ts": "2026-06-19T02:04:40.238386+00:00",
+      "bundle": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020440Z.md"
+    }
+  ]
+}
