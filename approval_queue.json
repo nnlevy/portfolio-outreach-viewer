@@ -2,7 +2,7 @@
   "queue": [
     {
       "id": "rev-parallel-affordablehome-us-202606190043",
-      "priority": 87,
+      "priority": 95,
       "domain": "affordablehome.us",
       "type": "revenue_ask",
       "title": "Similar revenue pitch for affordablehome.us (leveraging watershortcut.com learnings)",
@@ -307,7 +307,7 @@
     },
     {
       "id": "watershortcut-20260619-0013",
-      "priority": 34,
+      "priority": 20,
       "domain": "watershortcut.com",
       "type": "revenue_ask",
       "title": "Affiliate + Ad Partner Pitch for WaterShortcut Tools & Content",
@@ -323,7 +323,7 @@
         "customize_for_contacts",
         "prepare_tracking"
       ],
-      "notes": "High revenue priority. Approving this should trigger parallel preps for other high-potential domains and content updates. | GATED by readiness auditor: delight=52 marketing_ready=False. Delight work first.",
+      "notes": "High revenue priority. Approving this should trigger parallel preps for other high-potential domains and content updates. | GATED by readiness auditor: delight=52 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=52 marketing_ready=False. Delight work first.",
       "presented_at": "2026-06-19T04:44:36.255246+00:00",
       "decided_at": "2026-06-19T04:58:07.053170+00:00",
       "feedback": "Approved as per the received message. Proceed with revenue scope maximization for watershortcut and parallels.",
@@ -331,7 +331,7 @@
     },
     {
       "id": "rev-parallel-10-7-org-202606190043",
-      "priority": 23,
+      "priority": 20,
       "domain": "10-7.org",
       "type": "revenue_ask",
       "title": "Similar revenue pitch for 10-7.org (leveraging watershortcut.com learnings)",
@@ -347,7 +347,7 @@
         "find_contacts",
         "prepare_tracking"
       ],
-      "notes": "Parallel from watershortcut.com revenue approval. Maximizes revenue scope across portfolio. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=50 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=42 marketing_ready=False. Delight work first.",
+      "notes": "Parallel from watershortcut.com revenue approval. Maximizes revenue scope across portfolio. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=50 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=42 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=42 marketing_ready=False. Delight work first.",
       "prep_status": "done",
       "prepped_at": "2026-06-19T04:44:36.300885+00:00",
       "prep_details": [
@@ -359,7 +359,7 @@
     },
     {
       "id": "rev-parallel-growth-business-202606190043",
-      "priority": 23,
+      "priority": 20,
       "domain": "growth.business",
       "type": "revenue_ask",
       "title": "Similar revenue pitch for growth.business (leveraging watershortcut.com learnings)",
@@ -375,7 +375,7 @@
         "find_contacts",
         "prepare_tracking"
       ],
-      "notes": "Parallel from watershortcut.com revenue approval. Maximizes revenue scope across portfolio. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=50 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first.",
+      "notes": "Parallel from watershortcut.com revenue approval. Maximizes revenue scope across portfolio. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=50 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first.",
       "prep_status": "done",
       "prepped_at": "2026-06-19T04:44:36.298311+00:00",
       "prep_details": [
