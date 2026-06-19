@@ -48,7 +48,7 @@
       "created_at": "2026-06-19T04:41:29.911176+00:00",
       "priority": 81,
       "prep_status": "done",
-      "prepped_at": "2026-06-19T04:41:35.477552+00:00",
+      "prepped_at": "2026-06-19T07:47:40.724352+00:00",
       "prep_details": [
         "research_ad_networks",
         "prepare_assets"
@@ -405,6 +405,6 @@
     }
   ],
   "currently_presented_id": "rev-parallel-affordablehome-us-202606190043",
-  "last_updated": "2026-06-19T07:47:38.616009+00:00",
+  "last_updated": "2026-06-19T07:47:40.724553+00:00",
   "notes": "One-at-a-time presentation for approvals. Parallel prep allowed for queued items. Prioritized by revenue + delight + urgency. Approvals should maximize scope (e.g. bundle learnings across domains, trigger parallel revenue preps)."
 }
