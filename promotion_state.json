@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-19T02:04:40.238383+00:00",
+  "last_run": "2026-06-19T02:05:04.651283+00:00",
   "priority": [
     "watershortcut.com",
     "doting.co",
@@ -20,9 +20,9 @@
     },
     {
       "domain": "doting.co",
-      "bundle_md": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020440Z.md",
-      "bundle_json": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020440Z.json",
-      "generated": "2026-06-19T02:04:40.238256+00:00",
+      "bundle_md": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020504Z.md",
+      "bundle_json": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020504Z.json",
+      "generated": "2026-06-19T02:05:04.651148+00:00",
       "status": "pending_approval"
     }
   ],
@@ -38,6 +38,12 @@
       "action": "generated",
       "ts": "2026-06-19T02:04:40.238386+00:00",
       "bundle": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020440Z.md"
+    },
+    {
+      "domain": "doting.co",
+      "action": "generated",
+      "ts": "2026-06-19T02:05:04.651285+00:00",
+      "bundle": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020504Z.md"
     }
   ]
 }
