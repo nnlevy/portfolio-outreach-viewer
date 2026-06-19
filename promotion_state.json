@@ -58,7 +58,8 @@
       "bundle_md": "/Users/nirlevy/.openclaw/workspace/cascadeave/outreach_outputs/wakeup_confidence_cascadeave-com_20260619T032806Z.md",
       "bundle_json": "/Users/nirlevy/.openclaw/workspace/cascadeave/outreach_outputs/wakeup_confidence_cascadeave-com_20260619T032806Z.json",
       "generated": "2026-06-19T03:28:06.119993+00:00",
-      "status": "pending_approval"
+      "status": "approved",
+      "approved_at": "2026-06-19T03:44:47.892964+00:00"
     },
     {
       "domain": "chatulah.com",
@@ -128,6 +129,12 @@
       "action": "generated",
       "ts": "2026-06-19T03:38:06.593544+00:00",
       "bundle": "/Users/nirlevy/.openclaw/workspace/chatulah/outreach_outputs/wakeup_confidence_chatulah-com_20260619T033806Z.md"
+    },
+    {
+      "domain": "cascadeave.com",
+      "action": "approved",
+      "ts": "2026-06-19T03:44:47.893093+00:00",
+      "bundle": "/Users/nirlevy/.openclaw/workspace/cascadeave/outreach_outputs/wakeup_confidence_cascadeave-com_20260619T032806Z.md"
     }
   ]
 }
