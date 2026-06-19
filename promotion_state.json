@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-19T03:10:58.109953+00:00",
+  "last_run": "2026-06-19T03:27:23.254046+00:00",
   "priority": [
     "watershortcut.com",
     "doting.co",
@@ -45,6 +45,13 @@
       "bundle_json": "/Users/nirlevy/.openclaw/workspace/affordablehome/outreach_outputs/wakeup_confidence_affordablehome-us_20260619T031058Z.json",
       "generated": "2026-06-19T03:10:58.109948+00:00",
       "status": "pending_approval"
+    },
+    {
+      "domain": "buypatioheater.com",
+      "bundle_md": "/Users/nirlevy/.openclaw/workspace/buypatioheater/outreach_outputs/wakeup_confidence_buypatioheater-com_20260619T032723Z.md",
+      "bundle_json": "/Users/nirlevy/.openclaw/workspace/buypatioheater/outreach_outputs/wakeup_confidence_buypatioheater-com_20260619T032723Z.json",
+      "generated": "2026-06-19T03:27:23.254041+00:00",
+      "status": "pending_approval"
     }
   ],
   "history": [
@@ -89,6 +96,12 @@
       "action": "generated",
       "ts": "2026-06-19T03:10:58.109955+00:00",
       "bundle": "/Users/nirlevy/.openclaw/workspace/affordablehome/outreach_outputs/wakeup_confidence_affordablehome-us_20260619T031058Z.md"
+    },
+    {
+      "domain": "buypatioheater.com",
+      "action": "generated",
+      "ts": "2026-06-19T03:27:23.254048+00:00",
+      "bundle": "/Users/nirlevy/.openclaw/workspace/buypatioheater/outreach_outputs/wakeup_confidence_buypatioheater-com_20260619T032723Z.md"
     }
   ]
 }
