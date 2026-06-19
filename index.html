@@ -595,6 +595,32 @@ Would you be open to a ... (full in file)`, this)"
 
             // Keyboard friendly + mobile
             console.log('%c[Outreach Viewer] Mobile Safari optimized. Feedback forms ready for quick input + copy-to-iMessage.', 'color:#3f3f46');
+
+            // Robust ?id= deep link for Approval Queue cards (data-id). Stupid simple: tap the link in iMessage, it jumps to exact item.
+            // Works on current or slightly stale snapshot (banner fallback if card not in this HTML build).
+            function handleDeepLink() {
+                const params = new URLSearchParams(window.location.search);
+                const id = params.get('id') || params.get('approve');
+                if (id) {
+                    let card = document.querySelector(`[data-id="${id}"]`);
+                    if (card) {
+                        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        const orig = card.style.boxShadow;
+                        card.style.transition = 'box-shadow 0.3s';
+                        card.style.boxShadow = '0 0 0 8px #f59e0b';
+                        setTimeout(() => { card.style.boxShadow = orig || 'none'; }, 5000);
+                    } else {
+                        const q = document.querySelector('div.mb-6'); // queue section
+                        if (q) q.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        const b = document.createElement('div');
+                        b.style.cssText = 'position:sticky;top:0;background:#fef3c7;color:#92400e;padding:6px 10px;font-size:11px;z-index:999;border-bottom:2px solid #f59e0b;text-align:center';
+                        b.innerHTML = `Approval deep-link for ID <b>${id}</b> — look in the APPROVAL QUEUE section above (or use exact reply in iMessage). This snapshot may be seconds behind; refresh or check queue manager.`;
+                        document.body.insertBefore(b, document.body.firstChild);
+                        setTimeout(() => { if (b.parentNode) b.parentNode.removeChild(b); }, 12000);
+                    }
+                }
+            }
+            window.addEventListener('load', handleDeepLink);
         </script>
     </div>
 </body>
