@@ -28,33 +28,6 @@
       ]
     },
     {
-      "id": "rev-parallel-affordablehome-us-202606190058",
-      "priority": 87,
-      "domain": "affordablehome.us",
-      "type": "revenue_ask",
-      "title": "Similar revenue pitch for affordablehome.us (leveraging watershortcut.com learnings)",
-      "short_desc": "Adapt watershortcut (or prior) revenue learnings/pitch for this domain's tools/content + AdSense/referral setup.",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=rev-parallel-affordablehome-us-202606190058",
-      "revenue_impact": 75,
-      "user_delight_impact": 50,
-      "urgency": 75,
-      "status": "queued",
-      "created_at": "2026-06-19T04:58:07.118312+00:00",
-      "parallel_prep": [
-        "adapt_pitch",
-        "find_contacts",
-        "prepare_tracking"
-      ],
-      "notes": "Parallel from watershortcut.com revenue approval. Maximizes revenue scope across portfolio.",
-      "prep_status": "done",
-      "prepped_at": "2026-06-19T04:58:28.187018+00:00",
-      "prep_details": [
-        "adapt_pitch",
-        "find_contacts",
-        "prepare_tracking"
-      ]
-    },
-    {
       "id": "infra-watershortcut-com-20260619",
       "domain": "watershortcut.com",
       "type": "ad_settings",
@@ -108,26 +81,6 @@
       ]
     },
     {
-      "id": "infra-10-7-org-20260619",
-      "domain": "10-7.org",
-      "type": "ad_settings",
-      "title": "Wire /api/ad-settings for 10-7 (revenue lane)",
-      "short_desc": "Complete infra to enable monetization and better user experience on this revenue domain.",
-      "details_ref": "portfolio action queue / LATEST",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=infra-10-7-org-20260619",
-      "revenue_impact": 60,
-      "user_delight_impact": 40,
-      "urgency": 70,
-      "parallel_prep": [
-        "research_ad_networks",
-        "prepare_assets"
-      ],
-      "notes": "Infra enables revenue across portfolio. One approval here unlocks parallel work on multiple domains.",
-      "status": "queued",
-      "created_at": "2026-06-19T04:41:29.910939+00:00",
-      "priority": 69
-    },
-    {
       "id": "promo-10-7.org-20260619",
       "priority": 66,
       "domain": "10-7.org",
@@ -168,26 +121,6 @@
       "priority": 66
     },
     {
-      "id": "promo-10-7-org-20260619",
-      "domain": "10-7.org",
-      "type": "feedback_ask",
-      "title": "Feedback/approval for 10-7.org outreach or update",
-      "short_desc": "Review and approve the generated content/pitch for this domain to advance validation and potential revenue.",
-      "details_ref": "/Users/nirlevy/.openclaw/workspace/107/outreach_outputs/wakeup_confidence_10-7-org_20260619T020537Z.md",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=promo-10-7-org-20260619",
-      "revenue_impact": 40,
-      "user_delight_impact": 70,
-      "urgency": 60,
-      "parallel_prep": [
-        "research_contacts",
-        "generate_variants"
-      ],
-      "notes": "From promotion pending. Maximize by bundling with revenue prep for similar domains.",
-      "status": "queued",
-      "created_at": "2026-06-19T04:41:29.910092+00:00",
-      "priority": 66
-    },
-    {
       "id": "promo-watershortcut.com-20260619",
       "priority": 63,
       "domain": "watershortcut.com",
@@ -212,29 +145,6 @@
         "research_contacts",
         "generate_variants"
       ]
-    },
-    {
-      "id": "promo-watershortcut-com-20260619",
-      "domain": "watershortcut.com",
-      "type": "feedback_ask",
-      "title": "Feedback/approval for watershortcut.com outreach or update",
-      "short_desc": "Review and approve the generated content/pitch for this domain to advance validation and potential revenue.",
-      "details_ref": "/Users/nirlevy/.openclaw/workspace/watershortcut/outreach_outputs/wakeup_confidence_watershortcut-com_20260619T020556Z.md",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=promo-watershortcut-com-20260619",
-      "revenue_impact": 40,
-      "user_delight_impact": 70,
-      "urgency": 60,
-      "parallel_prep": [
-        "research_contacts",
-        "generate_variants"
-      ],
-      "notes": "From promotion pending. Maximize by bundling with revenue prep for similar domains.",
-      "status": "queued",
-      "created_at": "2026-06-19T04:41:29.910242+00:00",
-      "priority": 63,
-      "prep_status": "partial",
-      "prepped_at": "2026-06-19T04:41:35.543912+00:00",
-      "prep_details": []
     },
     {
       "id": "delight-fix-10-7-org-20260619",
@@ -315,26 +225,6 @@
       "notes": "Infra enables revenue across portfolio. One approval here unlocks parallel work on multiple domains."
     },
     {
-      "id": "infra-affordablehome-us-20260619",
-      "domain": "affordablehome.us",
-      "type": "ad_settings",
-      "title": "Wire /api/ad-settings for affordablehome (revenue lane)",
-      "short_desc": "Complete infra to enable monetization and better user experience on this revenue domain.",
-      "details_ref": "portfolio action queue / LATEST",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=infra-affordablehome-us-20260619",
-      "revenue_impact": 55,
-      "user_delight_impact": 35,
-      "urgency": 65,
-      "parallel_prep": [
-        "research_ad_networks",
-        "prepare_assets"
-      ],
-      "notes": "Infra enables revenue across portfolio. One approval here unlocks parallel work on multiple domains.",
-      "status": "queued",
-      "created_at": "2026-06-19T04:41:29.911064+00:00",
-      "priority": 58
-    },
-    {
       "id": "infra-growth-business-20260619",
       "domain": "growth.business",
       "type": "billing_tools",
@@ -353,46 +243,6 @@
       "status": "queued",
       "created_at": "2026-06-19T04:41:29.911486+00:00",
       "priority": 58
-    },
-    {
-      "id": "promo-growth.business-20260619",
-      "priority": 56,
-      "domain": "growth.business",
-      "type": "feedback_ask",
-      "title": "Feedback/approval for growth.business outreach or update",
-      "short_desc": "Review and approve the generated content/pitch for this domain to advance validation and potential revenue.",
-      "details_ref": "/Users/nirlevy/.openclaw/workspace/growth/outreach_outputs/wakeup_confidence_growth-business_20260619T020522Z.md",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=promo-growth.business-20260619",
-      "revenue_impact": 20,
-      "user_delight_impact": 70,
-      "urgency": 60,
-      "status": "queued",
-      "created_at": "2026-06-19T04:38:01.602645+00:00",
-      "parallel_prep": [
-        "research_contacts",
-        "generate_variants"
-      ],
-      "notes": "From existing promotion pending. Maximize by bundling with revenue prep for similar domains."
-    },
-    {
-      "id": "promo-buypatioheater.com-20260619",
-      "priority": 56,
-      "domain": "buypatioheater.com",
-      "type": "feedback_ask",
-      "title": "Feedback/approval for buypatioheater.com outreach or update",
-      "short_desc": "Review and approve the generated content/pitch for this domain to advance validation and potential revenue.",
-      "details_ref": "/Users/nirlevy/.openclaw/workspace/buypatioheater/outreach_outputs/wakeup_confidence_buypatioheater-com_20260619T032723Z.md",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=promo-buypatioheater.com-20260619",
-      "revenue_impact": 20,
-      "user_delight_impact": 70,
-      "urgency": 60,
-      "status": "queued",
-      "created_at": "2026-06-19T04:38:01.602660+00:00",
-      "parallel_prep": [
-        "research_contacts",
-        "generate_variants"
-      ],
-      "notes": "From existing promotion pending. Maximize by bundling with revenue prep for similar domains."
     },
     {
       "id": "promo-doting.co-20260619",
@@ -435,46 +285,6 @@
       "priority": 53
     },
     {
-      "id": "promo-affordablehome.us-20260619",
-      "priority": 50,
-      "domain": "affordablehome.us",
-      "type": "feedback_ask",
-      "title": "Feedback/approval for affordablehome.us outreach or update",
-      "short_desc": "Review and approve the generated content/pitch for this domain to advance validation and potential revenue.",
-      "details_ref": "/Users/nirlevy/.openclaw/workspace/affordablehome/outreach_outputs/wakeup_confidence_affordablehome-us_20260619T031058Z.md",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=promo-affordablehome.us-20260619",
-      "revenue_impact": 20,
-      "user_delight_impact": 70,
-      "urgency": 60,
-      "status": "queued",
-      "created_at": "2026-06-19T04:38:01.602657+00:00",
-      "parallel_prep": [
-        "research_contacts",
-        "generate_variants"
-      ],
-      "notes": "From existing promotion pending. Maximize by bundling with revenue prep for similar domains."
-    },
-    {
-      "id": "promo-doting-co-20260619",
-      "domain": "doting.co",
-      "type": "feedback_ask",
-      "title": "Feedback/approval for doting.co outreach or update",
-      "short_desc": "Review and approve the generated content/pitch for this domain to advance validation and potential revenue.",
-      "details_ref": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020504Z.md",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=promo-doting-co-20260619",
-      "revenue_impact": 25,
-      "user_delight_impact": 70,
-      "urgency": 60,
-      "parallel_prep": [
-        "research_contacts",
-        "generate_variants"
-      ],
-      "notes": "From promotion pending. Maximize by bundling with revenue prep for similar domains.",
-      "status": "queued",
-      "created_at": "2026-06-19T04:41:29.909277+00:00",
-      "priority": 45
-    },
-    {
       "id": "promo-chatulah-com-20260619",
       "domain": "chatulah.com",
       "type": "feedback_ask",
@@ -493,26 +303,6 @@
       "status": "queued",
       "created_at": "2026-06-19T04:41:29.910624+00:00",
       "priority": 45
-    },
-    {
-      "id": "promo-chatulah.com-20260619",
-      "priority": 43,
-      "domain": "chatulah.com",
-      "type": "feedback_ask",
-      "title": "Feedback/approval for chatulah.com outreach or update",
-      "short_desc": "Review and approve the generated content/pitch for this domain to advance validation and potential revenue.",
-      "details_ref": "/Users/nirlevy/.openclaw/workspace/chatulah/outreach_outputs/wakeup_confidence_chatulah-com_20260619T033806Z.md",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=promo-chatulah.com-20260619",
-      "revenue_impact": 20,
-      "user_delight_impact": 70,
-      "urgency": 60,
-      "status": "queued",
-      "created_at": "2026-06-19T04:38:01.602664+00:00",
-      "parallel_prep": [
-        "research_contacts",
-        "generate_variants"
-      ],
-      "notes": "From existing promotion pending. Maximize by bundling with revenue prep for similar domains."
     },
     {
       "id": "watershortcut-20260619-0013",
@@ -592,48 +382,6 @@
         "find_contacts",
         "prepare_tracking"
       ],
-      "delight_gate": true
-    },
-    {
-      "id": "rev-parallel-10-7-org-202606190058",
-      "priority": 23,
-      "domain": "10-7.org",
-      "type": "revenue_ask",
-      "title": "Similar revenue pitch for 10-7.org (leveraging watershortcut.com learnings)",
-      "short_desc": "Adapt watershortcut (or prior) revenue learnings/pitch for this domain's tools/content + AdSense/referral setup.",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=rev-parallel-10-7-org-202606190058",
-      "revenue_impact": 80,
-      "user_delight_impact": 50,
-      "urgency": 75,
-      "status": "queued",
-      "created_at": "2026-06-19T04:58:07.116518+00:00",
-      "parallel_prep": [
-        "adapt_pitch",
-        "find_contacts",
-        "prepare_tracking"
-      ],
-      "notes": "Parallel from watershortcut.com revenue approval. Maximizes revenue scope across portfolio. | GATED by readiness auditor: delight=50 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=42 marketing_ready=False. Delight work first.",
-      "delight_gate": true
-    },
-    {
-      "id": "rev-parallel-growth-business-202606190058",
-      "priority": 23,
-      "domain": "growth.business",
-      "type": "revenue_ask",
-      "title": "Similar revenue pitch for growth.business (leveraging watershortcut.com learnings)",
-      "short_desc": "Adapt watershortcut (or prior) revenue learnings/pitch for this domain's tools/content + AdSense/referral setup.",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=rev-parallel-growth-business-202606190058",
-      "revenue_impact": 78,
-      "user_delight_impact": 50,
-      "urgency": 75,
-      "status": "queued",
-      "created_at": "2026-06-19T04:58:07.119893+00:00",
-      "parallel_prep": [
-        "adapt_pitch",
-        "find_contacts",
-        "prepare_tracking"
-      ],
-      "notes": "Parallel from watershortcut.com revenue approval. Maximizes revenue scope across portfolio. | GATED by readiness auditor: delight=50 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first.",
       "delight_gate": true
     },
     {
