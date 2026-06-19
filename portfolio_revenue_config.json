@@ -1,0 +1,21 @@
+{
+  "portfolio_goal": "Fully automated revenue business platform from domain portfolio",
+  "principle": "max scoped work for min input + rapidly improving quality",
+  "domains": {
+    "watershortcut.com": {
+      "primary_streams": ["ads", "affiliates", "tool_subs", "leads"],
+      "current_status": "tools live (analyze/calculators), adsense configured, daily content + outreach automation, billing service bound",
+      "next_automation": "revenue pitches via promotion (affiliate for calculators, ad intros for utilities), track with UTM + existing GA/D1"
+    },
+    "doting.co": {
+      "primary_streams": ["affiliates", "subs", "leads"],
+      "current_status": "positioning in Wake-Up, outreach automation started",
+      "next_automation": "partner/creator pitches, habit retention value prop for retention revenue"
+    }
+  },
+  "global": {
+    "learnings_path": "state/outreach/learnings.json",
+    "viewer": "https://nnlevy.github.io/portfolio-outreach-viewer/",
+    "manifesto": "PORTFOLIO_REVENUE_BUSINESS_MANIFESTO.md (or qmd)"
+  }
+}

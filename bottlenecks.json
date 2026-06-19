@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "domain": "portfolio",
+      "type": "revenue_strategy",
+      "description": "Define/approve monetization strategy per domain (ads vs affiliates vs subs vs leads) and wire ad-settings for all revenue-lane domains",
+      "link": "https://nnlevy.github.io/portfolio-outreach-viewer/ or qmd://portfolio_factory/ALL_DOMAINS.md",
+      "revenue_impact": "Enables closed revenue loops across portfolio; unblocks billing, ads, and partner deals for automated platform."
+    }
+  ]
+}
