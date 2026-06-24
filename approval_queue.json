@@ -305,7 +305,7 @@
       ],
       "notes": "From promotion pending. Maximize by bundling with revenue prep for similar domains.",
       "status": "queued",
-      "created_at": "2026-06-24T05:15:26.393086+00:00",
+      "created_at": "2026-06-24T05:16:23.098557+00:00",
       "priority": 51
     },
     {
@@ -334,6 +334,6 @@
     }
   ],
   "currently_presented_id": "rev-parallel-affordablehome-us-202606190043",
-  "last_updated": "2026-06-24T05:15:26.398010+00:00",
+  "last_updated": "2026-06-24T05:16:23.101954+00:00",
   "notes": "One-at-a-time presentation for approvals. Parallel prep allowed for queued items. Prioritized by revenue + delight + urgency. Approvals should maximize scope (e.g. bundle learnings across domains, trigger parallel revenue preps)."
 }
