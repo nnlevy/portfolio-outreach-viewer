@@ -286,7 +286,7 @@
       "notes": "From promotion pending. Maximize by bundling with revenue prep for similar domains.",
       "status": "queued",
       "created_at": "2026-06-19T04:41:29.910624+00:00",
-      "priority": 61
+      "priority": 63
     },
     {
       "id": "promo-cascadeave-com-20260624",
@@ -305,7 +305,7 @@
       ],
       "notes": "From promotion pending. Maximize by bundling with revenue prep for similar domains.",
       "status": "queued",
-      "created_at": "2026-06-24T05:48:22.339538+00:00",
+      "created_at": "2026-06-24T05:49:35.316918+00:00",
       "priority": 51
     },
     {
@@ -334,6 +334,6 @@
     }
   ],
   "currently_presented_id": "rev-parallel-affordablehome-us-202606190043",
-  "last_updated": "2026-06-24T05:48:22.341603+00:00",
+  "last_updated": "2026-06-24T05:49:35.319023+00:00",
   "notes": "One-at-a-time presentation for approvals. Parallel prep allowed for queued items. Prioritized by revenue + delight + urgency. Approvals should maximize scope (e.g. bundle learnings across domains, trigger parallel revenue preps)."
 }
