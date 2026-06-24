@@ -59,7 +59,7 @@
     },
     {
       "id": "promo-10-7.org-20260619",
-      "priority": 76,
+      "priority": 78,
       "domain": "10-7.org",
       "type": "feedback_ask",
       "title": "Feedback/approval for 10-7.org outreach or update",
@@ -76,6 +76,25 @@
         "generate_variants"
       ],
       "notes": "From existing promotion pending. Maximize by bundling with revenue prep for similar domains."
+    },
+    {
+      "id": "delight-fix-10-7-org-20260619",
+      "domain": "10-7.org",
+      "type": "delight_fix",
+      "title": "Improve delight / next-steps UX for 10-7.org (gate before revenue)",
+      "short_desc": "Address 'traffic arrives but next steps unclear' or low delight signals. Polish CTAs, content, tools, clarity before marketing.",
+      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=delight-fix-10-7-org-20260619",
+      "revenue_impact": 20,
+      "user_delight_impact": 85,
+      "urgency": 70,
+      "status": "queued",
+      "created_at": "2026-06-19T04:53:04.405524+00:00",
+      "parallel_prep": [
+        "research_ux",
+        "content_update"
+      ],
+      "notes": "Auto-enqueued by domain_readiness_auditor because revenue ask for 10-7.org was low-delight (score 47).",
+      "priority": 75
     },
     {
       "id": "promo-watershortcut.com-20260619",
@@ -104,23 +123,32 @@
       ]
     },
     {
-      "id": "delight-fix-10-7-org-20260619",
+      "id": "rev-parallel-10-7-org-202606190043",
+      "priority": 71,
       "domain": "10-7.org",
-      "type": "delight_fix",
-      "title": "Improve delight / next-steps UX for 10-7.org (gate before revenue)",
-      "short_desc": "Address 'traffic arrives but next steps unclear' or low delight signals. Polish CTAs, content, tools, clarity before marketing.",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=delight-fix-10-7-org-20260619",
-      "revenue_impact": 20,
-      "user_delight_impact": 85,
-      "urgency": 70,
+      "type": "revenue_ask",
+      "title": "Similar revenue pitch for 10-7.org (leveraging watershortcut.com learnings)",
+      "short_desc": "Adapt watershortcut (or prior) revenue learnings/pitch for this domain's tools/content + AdSense/referral setup.",
+      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=rev-parallel-10-7-org-202606190043",
+      "revenue_impact": 80,
+      "user_delight_impact": 50,
+      "urgency": 75,
       "status": "queued",
-      "created_at": "2026-06-19T04:53:04.405524+00:00",
+      "created_at": "2026-06-19T04:43:54.098244+00:00",
       "parallel_prep": [
-        "research_ux",
-        "content_update"
+        "adapt_pitch",
+        "find_contacts",
+        "prepare_tracking"
       ],
-      "notes": "Auto-enqueued by domain_readiness_auditor because revenue ask for 10-7.org was low-delight (score 47).",
-      "priority": 73
+      "notes": "Parallel from watershortcut.com revenue approval. Maximizes revenue scope across portfolio. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=50 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=42 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=42 marketing_ready=False. Delight work first.",
+      "prep_status": "done",
+      "prepped_at": "2026-06-19T04:44:36.300885+00:00",
+      "prep_details": [
+        "adapt_pitch",
+        "find_contacts",
+        "prepare_tracking"
+      ],
+      "delight_gate": true
     },
     {
       "id": "promo-growth-business-20260619",
@@ -163,54 +191,6 @@
       "priority": 69
     },
     {
-      "id": "promo-doting.co-20260619",
-      "priority": 69,
-      "domain": "doting.co",
-      "type": "feedback_ask",
-      "title": "Feedback/approval for doting.co outreach or update",
-      "short_desc": "Review and approve the generated content/pitch for this domain to advance validation and potential revenue.",
-      "details_ref": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020504Z.md",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=promo-doting.co-20260619",
-      "revenue_impact": 40,
-      "user_delight_impact": 70,
-      "urgency": 60,
-      "status": "queued",
-      "created_at": "2026-06-19T04:38:01.602551+00:00",
-      "parallel_prep": [
-        "research_contacts",
-        "generate_variants"
-      ],
-      "notes": "From existing promotion pending. Maximize by bundling with revenue prep for similar domains."
-    },
-    {
-      "id": "rev-parallel-10-7-org-202606190043",
-      "priority": 69,
-      "domain": "10-7.org",
-      "type": "revenue_ask",
-      "title": "Similar revenue pitch for 10-7.org (leveraging watershortcut.com learnings)",
-      "short_desc": "Adapt watershortcut (or prior) revenue learnings/pitch for this domain's tools/content + AdSense/referral setup.",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=rev-parallel-10-7-org-202606190043",
-      "revenue_impact": 80,
-      "user_delight_impact": 50,
-      "urgency": 75,
-      "status": "queued",
-      "created_at": "2026-06-19T04:43:54.098244+00:00",
-      "parallel_prep": [
-        "adapt_pitch",
-        "find_contacts",
-        "prepare_tracking"
-      ],
-      "notes": "Parallel from watershortcut.com revenue approval. Maximizes revenue scope across portfolio. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=47 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=50 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=42 marketing_ready=False. Delight work first. | GATED by readiness auditor: delight=42 marketing_ready=False. Delight work first.",
-      "prep_status": "done",
-      "prepped_at": "2026-06-19T04:44:36.300885+00:00",
-      "prep_details": [
-        "adapt_pitch",
-        "find_contacts",
-        "prepare_tracking"
-      ],
-      "delight_gate": true
-    },
-    {
       "id": "delight-fix-watershortcut-com-20260619",
       "domain": "watershortcut.com",
       "type": "delight_fix",
@@ -247,6 +227,26 @@
       ],
       "notes": "Auto-enqueued by domain_readiness_auditor because revenue ask for growth.business was low-delight (score 47).",
       "priority": 67
+    },
+    {
+      "id": "promo-doting.co-20260619",
+      "priority": 63,
+      "domain": "doting.co",
+      "type": "feedback_ask",
+      "title": "Feedback/approval for doting.co outreach or update",
+      "short_desc": "Review and approve the generated content/pitch for this domain to advance validation and potential revenue.",
+      "details_ref": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020504Z.md",
+      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=promo-doting.co-20260619",
+      "revenue_impact": 40,
+      "user_delight_impact": 70,
+      "urgency": 60,
+      "status": "queued",
+      "created_at": "2026-06-19T04:38:01.602551+00:00",
+      "parallel_prep": [
+        "research_contacts",
+        "generate_variants"
+      ],
+      "notes": "From existing promotion pending. Maximize by bundling with revenue prep for similar domains."
     },
     {
       "id": "promo-affordablehome-us-20260619",
@@ -305,7 +305,7 @@
       ],
       "notes": "From promotion pending. Maximize by bundling with revenue prep for similar domains.",
       "status": "queued",
-      "created_at": "2026-06-24T05:58:14.951958+00:00",
+      "created_at": "2026-06-24T05:58:55.088050+00:00",
       "priority": 51
     },
     {
@@ -334,6 +334,6 @@
     }
   ],
   "currently_presented_id": "rev-parallel-affordablehome-us-202606190043",
-  "last_updated": "2026-06-24T05:58:14.956078+00:00",
+  "last_updated": "2026-06-24T05:58:55.090048+00:00",
   "notes": "One-at-a-time presentation for approvals. Parallel prep allowed for queued items. Prioritized by revenue + delight + urgency. Approvals should maximize scope (e.g. bundle learnings across domains, trigger parallel revenue preps)."
 }
