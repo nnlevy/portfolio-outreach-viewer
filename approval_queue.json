@@ -325,17 +325,17 @@
       "delight_gate": true
     },
     {
-      "id": "delight-fix-10-7-org-20260625",
+      "id": "delight-fix-10-7-org-20260626",
       "domain": "10-7.org",
       "type": "delight_fix",
       "title": "Improve delight / next-steps UX for 10-7.org (gate before revenue)",
       "short_desc": "Address 'traffic arrives but next steps unclear' or low delight signals. Polish CTAs, content, tools, clarity before marketing.",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=delight-fix-10-7-org-20260625",
+      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=delight-fix-10-7-org-20260626",
       "revenue_impact": 20,
       "user_delight_impact": 85,
       "urgency": 70,
       "status": "queued",
-      "created_at": "2026-06-26T03:32:41.035520+00:00",
+      "created_at": "2026-06-26T04:42:48.832257+00:00",
       "parallel_prep": [
         "research_ux",
         "content_update"
@@ -343,17 +343,17 @@
       "notes": "Auto-enqueued by domain_readiness_auditor because revenue ask for 10-7.org was low-delight (score 42)."
     },
     {
-      "id": "seo-graph-fix-affordablehome-us-20260625",
+      "id": "seo-graph-fix-affordablehome-us-20260626",
       "domain": "affordablehome.us",
       "type": "seo_graph_fix",
       "title": "SEO cross-link hygiene for affordablehome.us (footer Network + Sitemap)",
       "short_desc": "Add/update footer with 'Network: growth.business + peers' + Sitemap link + head <link rel=sitemap>. Improves portfolio graph/SEO acquire.",
-      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=seo-graph-fix-affordablehome-us-20260625",
+      "viewer_link": "https://nnlevy.github.io/portfolio-outreach-viewer/?id=seo-graph-fix-affordablehome-us-20260626",
       "revenue_impact": 40,
       "user_delight_impact": 30,
       "urgency": 50,
       "status": "queued",
-      "created_at": "2026-06-26T03:32:41.036034+00:00",
+      "created_at": "2026-06-26T04:42:48.832416+00:00",
       "notes": "Auto from auditor seo_graph low score (footer links for internal authority across 75 domains)."
     }
   ],
