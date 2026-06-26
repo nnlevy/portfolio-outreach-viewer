@@ -12,48 +12,6 @@
   ],
   "pending_approvals": [
     {
-      "domain": "doting.co",
-      "bundle_md": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020504Z.md",
-      "bundle_json": "/Users/nirlevy/.openclaw/workspace/doting/outreach_outputs/wakeup_confidence_doting-co_20260619T020504Z.json",
-      "generated": "2026-06-19T02:05:04.651148+00:00",
-      "status": "pending_approval"
-    },
-    {
-      "domain": "growth.business",
-      "bundle_md": "/Users/nirlevy/.openclaw/workspace/growth/outreach_outputs/wakeup_confidence_growth-business_20260619T020522Z.md",
-      "bundle_json": "/Users/nirlevy/.openclaw/workspace/growth/outreach_outputs/wakeup_confidence_growth-business_20260619T020522Z.json",
-      "generated": "2026-06-19T02:05:22.402430+00:00",
-      "status": "pending_approval"
-    },
-    {
-      "domain": "10-7.org",
-      "bundle_md": "/Users/nirlevy/.openclaw/workspace/107/outreach_outputs/wakeup_confidence_10-7-org_20260619T020537Z.md",
-      "bundle_json": "/Users/nirlevy/.openclaw/workspace/107/outreach_outputs/wakeup_confidence_10-7-org_20260619T020537Z.json",
-      "generated": "2026-06-19T02:05:37.241531+00:00",
-      "status": "pending_approval"
-    },
-    {
-      "domain": "affordablehome.us",
-      "bundle_md": "/Users/nirlevy/.openclaw/workspace/affordablehome/outreach_outputs/wakeup_confidence_affordablehome-us_20260619T031058Z.md",
-      "bundle_json": "/Users/nirlevy/.openclaw/workspace/affordablehome/outreach_outputs/wakeup_confidence_affordablehome-us_20260619T031058Z.json",
-      "generated": "2026-06-19T03:10:58.109948+00:00",
-      "status": "pending_approval"
-    },
-    {
-      "domain": "buypatioheater.com",
-      "bundle_md": "/Users/nirlevy/.openclaw/workspace/buypatioheater/outreach_outputs/wakeup_confidence_buypatioheater-com_20260619T032723Z.md",
-      "bundle_json": "/Users/nirlevy/.openclaw/workspace/buypatioheater/outreach_outputs/wakeup_confidence_buypatioheater-com_20260619T032723Z.json",
-      "generated": "2026-06-19T03:27:23.254041+00:00",
-      "status": "pending_approval"
-    },
-    {
-      "domain": "chatulah.com",
-      "bundle_md": "/Users/nirlevy/.openclaw/workspace/chatulah/outreach_outputs/wakeup_confidence_chatulah-com_20260619T033806Z.md",
-      "bundle_json": "/Users/nirlevy/.openclaw/workspace/chatulah/outreach_outputs/wakeup_confidence_chatulah-com_20260619T033806Z.json",
-      "generated": "2026-06-19T03:38:06.593539+00:00",
-      "status": "pending_approval"
-    },
-    {
       "domain": "watershortcut.com",
       "bundle_md": "/Users/nirlevy/.openclaw/workspace/watershortcut/outreach_outputs/wakeup_confidence_watershortcut-com_20260623T045842Z.md",
       "bundle_json": "/Users/nirlevy/.openclaw/workspace/watershortcut/outreach_outputs/wakeup_confidence_watershortcut-com_20260623T045842Z.json",
@@ -153,5 +111,6 @@
       "ts": "2026-06-23T04:59:14.022662+00:00",
       "bundle": "/Users/nirlevy/.openclaw/workspace/cascadeave/outreach_outputs/wakeup_confidence_cascadeave-com_20260623T045914Z.md"
     }
-  ]
+  ],
+  "last_cleaned": "2026-06-26T01:02:15.524666+00:00"
 }
